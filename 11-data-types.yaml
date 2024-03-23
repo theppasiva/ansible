@@ -13,7 +13,7 @@
      Docker: 4
     Trainer: true
   tasks:
-  - name: print key value pair
+  - name: print key value pair #list
     ansible.builtin.debug:
       msg: "name: {{NAME}}"
   - name: print list
