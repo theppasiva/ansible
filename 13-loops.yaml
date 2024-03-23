@@ -2,7 +2,7 @@
   hosts: localhost
   tasks:
   - name: print the persons
-    ansible.buitin.debug:
+    ansible.builtin.debug:
       msg: "Hello {{item}}" #item is a default keyword
     loop: 
     - Ramesh
